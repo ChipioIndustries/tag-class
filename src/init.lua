@@ -2,12 +2,10 @@
 type ClassConstructor = (Instance) -> () | {new: (Instance) -> ()}
 
 local CollectionService = game:GetService("CollectionService")
-local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
-local packages = ReplicatedStorage.Packages
-local t = require(packages.t)
-local Maid = require(packages.Maid)
-local makeStandalone = require(packages.makeStandalone)
+local t = require(script.Parent.t)
+local Maid = require(script.Parent.Maid)
+local makeStandalone = require(script.Parent.makeStandalone)
 
 local typeCheck = t.tuple(t.string, t.union(t.callback, t.table), t.optional(t.Instance))
 

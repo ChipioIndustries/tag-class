@@ -8,6 +8,8 @@ exclude = ["wally.exe", "aftman", "*.zip"]
 
 [dependencies]
 t = "osyrisrblx/t@3.0.0"
+makeStandalone = "chipioindustries/make-standalone@1.0.7"
+Maid = "chipioindustries/maid@1.0.1"
 
 [dev-dependencies]
 TestEZ = "roblox/testez@0.4.1"
