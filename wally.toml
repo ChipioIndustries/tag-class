@@ -1,7 +1,7 @@
 [package]
 name = "chipioindustries/tag-class"
 description = "Library for easily applying lua classes to instances tagged through CollectionService."
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 exclude = ["wally.exe", "aftman", "*.zip"]
