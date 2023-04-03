@@ -1,0 +1,13 @@
+[package]
+name = "chipioindustries/tag-class"
+description = "Library for easily applying lua classes to instances tagged through CollectionService."
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["wally.exe", "aftman", "*.zip"]
+
+[dependencies]
+t = "osyrisrblx/t@3.0.0"
+
+[dev-dependencies]
+TestEZ = "roblox/testez@0.4.1"
